@@ -67,11 +67,64 @@ aa    I8I  *8a.   .aa 88 aa    I8I  aa    I8I *8a    .a8 88        aa    I8I
 
         string playerChoice = Console.ReadLine().ToLower().Trim();
 
-
-        if (playerChoice == "paper")
+        Console.Clear();
+        if (playerChoice == "paper" && computerChoice == "scissors")
         {
-
+          Console.WriteLine("YOU CHOSE PAPER!");
+          Console.WriteLine("COMPUTER CHOSE SCISSORS!");
+          Console.WriteLine("Sorry! YOU LOSE!");
         }
+        else if (playerChoice == "paper" && computerChoice == "rock")
+        {
+          Console.WriteLine("YOU CHOSE PAPER!");
+          Console.WriteLine("COMPUTER CHOSE ROCK!");
+          Console.WriteLine("Wow! YOU WIN!");
+        }
+        else if (playerChoice == "paper" && computerChoice == "paper")
+        {
+          Console.WriteLine("YOU CHOSE PAPER!");
+          Console.WriteLine("COMPUTER CHOSE PAPER!");
+          Console.WriteLine("ITS A TIE!");
+        }
+        else if (playerChoice == "scissors" && computerChoice == "paper")
+        {
+          Console.WriteLine("YOU CHOSE SCISSORS!");
+          Console.WriteLine("COMPUTER CHOSE PAPER!");
+          Console.WriteLine("Wow! YOU WIN!");
+        }
+        else if (playerChoice == "scissors" && computerChoice == "scissors")
+        {
+          Console.WriteLine("YOU CHOSE SCISSORS!");
+          Console.WriteLine("COMPUTER CHOSE SCISSORS!");
+          Console.WriteLine("ITS A TIE!");
+        }
+        else if (playerChoice == "scissors" && computerChoice == "rock")
+        {
+          Console.WriteLine("YOU CHOSE SCISSORS!");
+          Console.WriteLine("COMPUTER CHOSE ROCK!");
+          Console.WriteLine("Sorry! YOU LOSE!");
+        }
+        else if (playerChoice == "rock" && computerChoice == "paper")
+        {
+          Console.WriteLine("YOU CHOSE SCISSORS!");
+          Console.WriteLine("COMPUTER CHOSE ROCK!");
+          Console.WriteLine("Sorry! YOU LOSE!");
+        }
+        else if (playerChoice == "rock" && computerChoice == "scissors")
+        {
+          Console.WriteLine("YOU CHOSE ROCK!");
+          Console.WriteLine("COMPUTER CHOSE SCISSORS!");
+          Console.WriteLine("Wow! YOU WIN!");
+        }
+        else if (playerChoice == "rock" && computerChoice == "rock")
+        {
+          Console.WriteLine("YOU CHOSE ROCK!");
+          Console.WriteLine("COMPUTER CHOSE ROCK!");
+          Console.WriteLine("ITS A TIE!");
+        }
+
+
+        Thread.Sleep(5000);
 
       }
 
