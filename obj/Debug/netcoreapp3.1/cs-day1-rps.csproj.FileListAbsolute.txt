@@ -1,0 +1,13 @@
+C:\source\codeworks\cs-day1-rps\bin\Debug\netcoreapp3.1\cs-day1-rps.exe
+C:\source\codeworks\cs-day1-rps\bin\Debug\netcoreapp3.1\cs-day1-rps.deps.json
+C:\source\codeworks\cs-day1-rps\bin\Debug\netcoreapp3.1\cs-day1-rps.runtimeconfig.json
+C:\source\codeworks\cs-day1-rps\bin\Debug\netcoreapp3.1\cs-day1-rps.runtimeconfig.dev.json
+C:\source\codeworks\cs-day1-rps\bin\Debug\netcoreapp3.1\cs-day1-rps.dll
+C:\source\codeworks\cs-day1-rps\bin\Debug\netcoreapp3.1\cs-day1-rps.pdb
+C:\source\codeworks\cs-day1-rps\obj\Debug\netcoreapp3.1\cs-day1-rps.csprojAssemblyReference.cache
+C:\source\codeworks\cs-day1-rps\obj\Debug\netcoreapp3.1\cs-day1-rps.csproj.CoreCompileInputs.cache
+C:\source\codeworks\cs-day1-rps\obj\Debug\netcoreapp3.1\cs-day1-rps.AssemblyInfoInputs.cache
+C:\source\codeworks\cs-day1-rps\obj\Debug\netcoreapp3.1\cs-day1-rps.AssemblyInfo.cs
+C:\source\codeworks\cs-day1-rps\obj\Debug\netcoreapp3.1\cs-day1-rps.dll
+C:\source\codeworks\cs-day1-rps\obj\Debug\netcoreapp3.1\cs-day1-rps.pdb
+C:\source\codeworks\cs-day1-rps\obj\Debug\netcoreapp3.1\cs-day1-rps.genruntimeconfig.cache
